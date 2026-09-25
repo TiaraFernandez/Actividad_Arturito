@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.3/lib/p5.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>Arturito y el Halcon Milenario</title>
+  </head>
+  
+  <body>
+    <!-- Main solo contiene lo necesario para el boton de información y su pop-up -->
+    <main>
+      <button id="info-button" class="info-button" type="button" aria-label="Mostrar comandos" aria-controls="commands-modal" aria-expanded="false">
+        i
+      </button>
+      <div id="commands-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="commands-title" hidden>
+        <div class="modal-content">
+          <button id="close-modal" class="close-button" type="button" aria-label="Cerrar comandos">&times;</button>
+          <h2 id="commands-title">Comandos</h2>
+          <ul>
+            <li><kbd>Flechas</kbd> Mover a Arturito.</li>
+            <li><kbd>A</kbd>, <kbd>B</kbd>, <kbd>C</kbd>, <kbd>D</kbd>, <kbd>E</kbd> Entrar en una tuberia.</li>
+            <li><kbd>R</kbd> Mostrar el recorrido de la solucion.</li>
+            <li><kbd>Enter</kbd> Reiniciar la actividad.</li>
+          </ul>
+          <h4>Se recomienda poner la actividad en pantalla completa.</h4>
+        </div>
+      </div>
+    </main>
+    <!-- Ponemos el sketch del la actividad -->
+    <script src="sketch.js"></script>
+  
+  </body>
+</html>
