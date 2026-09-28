@@ -148,7 +148,7 @@ function dibujarEtiquetas() {
 }
 
 function dibujarInstrucciones() {
-  let anchoRect = 650, altoRect = 125;
+  let anchoRect = 850, altoRect = 125;
   let instrucX = (ancho/2)-(anchoRect/2), instrucY = 15, espaciado = 20;
   // Rectangulo
   fill(255);
