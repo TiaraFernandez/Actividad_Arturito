@@ -128,7 +128,7 @@ function dibujarLaberintoGeometria() {
 function dibujarEtiquetas() {
   fill(0); 
   noStroke();
-  textFont('Georgia');
+  textFont('IBM Plex Mono');
   textSize(26);
   textAlign(CENTER, CENTER);
   textStyle(BOLD);
@@ -161,7 +161,7 @@ function dibujarInstrucciones() {
 
   fill(0);
   noStroke();
-  textFont('Georgia');
+  textFont('IBM Plex Mono');
   textAlign(LEFT, TOP);
   textSize(18);
   textStyle(BOLD);
